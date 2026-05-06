@@ -79,7 +79,7 @@ features = np.array([[
     phone, paper,
     scaled[0][1],  # monthly charges scaled
     scaled[0][2],  # total charges scaled
-    0,  # churn placeholder
+    
     tenure_group, high_monthly, high_charge,
     lines_no_phone, lines_yes,
     internet_fiber, internet_no,
