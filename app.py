@@ -92,7 +92,7 @@ features = np.array([[
     contract_one, contract_two,
     pay_credit, pay_echeck, pay_mailed
 ]])
-st.write(f"Features: {features.shape}, Model expects: {model.n_features_in_}")
+
 # Predict
 if st.button("🔍 Predict Churn"):
     proba = model.predict_proba(features)[0][1]
