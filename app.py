@@ -73,7 +73,7 @@ scaled = scaler.transform([[tenure, monthly_charges, total_charges]])
 
 # Build feature array (34 features)
 features = np.array([[
-    0,  # gender (neutral)
+
     senior, part, dep,
     scaled[0][0],  # tenure scaled
     phone, paper,
